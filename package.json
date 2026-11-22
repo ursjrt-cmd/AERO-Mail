@@ -1,0 +1,23 @@
+{
+  "name": "aero-mail-single-file",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Single-file AERO Mail webmail app for Render using Supabase and Resend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "express": "^4.21.2",
+    "multer": "^2.0.2",
+    "pg": "^8.13.3",
+    "resend": "^6.39.0",
+    "sanitize-html": "^2.14.0",
+    "dotenv": "^16.4.7"
+  }
+}
